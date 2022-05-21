@@ -42,5 +42,9 @@ dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 6.
 dotnet-aspnet-codegenerator controller -name ClientesController --relativeFolderPath Controllers --useDefaultLayout
 dotnet aspnet-codegenerator controller -name AlunoController    --relativeFolderPath Controllers --useDefaultLayout
 
+
+#	CRIAR VIEW
+dotnet aspnet-codegenerator view index Empty -outDir Views/Aluno --useDefaultLayout
+
 #	https://www.macoratti.net/17/12/aspcore_ctrlcmd2.htm
 
