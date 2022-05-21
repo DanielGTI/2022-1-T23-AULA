@@ -1,0 +1,46 @@
+# extension
+1 - C#
+2 - C# Extensions
+
+#	Instalar
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.300-windows-x64-installer
+
+
+# COMMANDS
+
+
+#	INFORMACOES
+dotnet --info
+
+#	Execute um comando do SDK do .NET.
+dotnet -h
+
+#	CRIAR PROJETOS
+dotnet new mvc
+
+#	Crtl + Shift + P 
+Generate Build and debug assets
+
+#	LISTA TIPOS DE PROJETOS
+dotnet new --list
+
+
+#	ESCOLHER A VERSAO
+https://stackoverflow.com/questions/66058856/how-to-make-dotnet-core-select-a-lower-version
+
+#	RODAR
+dotnet run 
+
+#	Instalar e atualizar o aspnet-codegenerator
+dotnet tool install -g dotnet-aspnet-codegenerator
+dotnet tool update -g dotnet-aspnet-codegenerator
+
+#	Microsoft.VisualStudio.Web.CodeGeneration.Design 	(https://www.nuget.org/packages/Microsoft.VisualStudio.Web.CodeGeneration.Design/)
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 6.0.5
+
+#	CRIAR CONTROLLER
+dotnet-aspnet-codegenerator controller -name ClientesController --relativeFolderPath Controllers --useDefaultLayout
+dotnet aspnet-codegenerator controller -name AlunoController    --relativeFolderPath Controllers --useDefaultLayout
+
+#	https://www.macoratti.net/17/12/aspcore_ctrlcmd2.htm
+
